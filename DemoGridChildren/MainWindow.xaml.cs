@@ -25,9 +25,14 @@ namespace DemoGridChildren
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void buttonHide_Click(object sender, RoutedEventArgs e)
         {
+            ParentGrid.Children.Clear();
+        }
 
+        private void buttonShow_Click(object sender, RoutedEventArgs e)
+        {
+            groupBox.Visibility = Visibility.Visible;
         }
     }
 }

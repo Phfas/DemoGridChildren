@@ -16,7 +16,11 @@
             <GroupBox x:Name="groupBox1" Header="GroupBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="224,90,0,0"/>
             <GroupBox x:Name="groupBox2" Header="GroupBox" HorizontalAlignment="Left" Margin="149,170,0,0" VerticalAlignment="Top"/>
         </Grid>
-        <Button x:Name="button" Content="Button" VerticalAlignment="Center" Click="button_Click"/>
+        <StackPanel Margin="0,150,0,125" Orientation="Vertical">
+            <Button x:Name="buttonHide" Content="Hide" VerticalAlignment="Center" Click="buttonHide_Click"/>
+            <Button x:Name="buttonShow" Content="Show" VerticalAlignment="Center" Click="buttonShow_Click"/>
+
+        </StackPanel>
 
     </Grid>
 </Window>
