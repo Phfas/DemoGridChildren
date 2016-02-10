@@ -11,12 +11,12 @@
             <ColumnDefinition Width="130*"/>
             <ColumnDefinition Width="387*"/>
         </Grid.ColumnDefinitions>
-        <Grid x:Name="ParentGrid" Grid.Column="1">
+        <Grid x:Name="ParentGrid" Grid.Column="1" Background="#FFD1D1D1">
             <GroupBox x:Name="groupBox" Header="GroupBox" HorizontalAlignment="Left" Margin="64,90,0,0" VerticalAlignment="Top"/>
             <GroupBox x:Name="groupBox1" Header="GroupBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="224,90,0,0"/>
             <GroupBox x:Name="groupBox2" Header="GroupBox" HorizontalAlignment="Left" Margin="149,170,0,0" VerticalAlignment="Top"/>
         </Grid>
-        <StackPanel Margin="0,150,0,125" Orientation="Vertical">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
             <Button x:Name="buttonHide" Content="Hide" VerticalAlignment="Center" Click="buttonHide_Click"/>
             <Button x:Name="buttonShow" Content="Show" VerticalAlignment="Center" Click="buttonShow_Click"/>
 

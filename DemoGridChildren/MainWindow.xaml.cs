@@ -32,7 +32,9 @@ namespace DemoGridChildren
 
         private void buttonShow_Click(object sender, RoutedEventArgs e)
         {
-            groupBox.Visibility = Visibility.Visible;
+            ParentGrid.Children.Add(groupBox);
+            ParentGrid.Children.Add(groupBox1);
+            ParentGrid.Children.Add(groupBox2);
         }
     }
 }
